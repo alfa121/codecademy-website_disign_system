@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+} 
+body {
+  margin: 0 10%;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url(/sources/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sans Italic';
+  src: url(/sources/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url(/sources/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url(/sources/SourceSansPro-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Source Sans Pro Italic';
+  src: url(/sources/SourceSansPro-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url(/sources/SourceSansPro-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(/sources/RobotoMono-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto Mono Italic';
+  src: url(/sources/RobotoMono-Italic-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto Mono Bold';
+  src: url(/sources/RobotoMono-Bold.ttf);
+  font-weight: 700;
+}
+.sections {
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid rgb(150, 108, 108);
+}
+.containers {
+  width: 100%;
+}
+.title {
+  margin: 30px;
+  margin-bottom: 50px;
+}
+.color-1 {
+  background-color: rgb(238, 184, 83);
+  width: 32%;
+  padding: 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.color-2 {
+  background-color: rgb(211, 69, 69);
+  color: white;
+  width: 32%;
+  padding: 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.color-3 {
+  background-color: rgb(37, 138, 206);
+  width: 32%;
+  padding: 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.color-4 {
+  background-color: rgb(153, 103, 99);
+  color: white;
+  width: 32%;
+  padding: 30px;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.font1, .font2, .font3 {
+  display: inline-block;
+}
+#h2-fonts {
+  margin-bottom: 20px;
+}
+.first-p1, .first-p2, .first-p3 {
+  text-decoration: underline;
+}
+.regular1 {
+  font-family: 'Roboto Mono';
+}
+.bold1 {
+  font-family: 'Roboto Mono Bold';
+}
+.italic1 {
+  font-family: 'Roboto Mono Italic';
+}
+.regular2 {
+  font-family: 'Source Sans Pro';
+}
+.bold2 {
+  font-family: 'Source Sans Pro Bold';
+}
+.italic2 {
+  font-family: 'Source Sans Pro Italic';
+}
+.regular3 {
+  font-family: 'Open Sans';
+}
+.bold3 {
+  font-family: 'Open Sans Bold';
+}
+.italic3 {
+  font-family: 'Open Sans Italic';
+}
+#bottons {
+  height: 400px;
+}
+.bottons-graphics {
+  padding-top: 60px;
+}
